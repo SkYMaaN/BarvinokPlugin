@@ -1,0 +1,281 @@
+* {
+    margin: 10;
+    padding: 0;
+}
+
+body {
+     background: #000;
+     font-family:sans-serif;
+     margin: 0 auto;
+     width: 400px;
+	 height:175px;
+	
+}
+#kop{
+	    position:absolute;
+	    top:38px;
+        left:323px;
+		padding-top:1px;
+        padding-left:2px;
+        color:#f14646;
+        font-size:8px;    		
+				
+}
+#don{
+	    position:absolute;
+	    top:36px;
+        left:281px;
+		padding-top:1px;
+        padding-left:2px;
+        color:#af0;
+        font-size:11px;   		
+				
+}
+
+#top {
+width:385px;
+height:50px;
+border:1px solid #9664c8;
+position:absolute;
+padding-top:5px;
+padding-left:5px;
+top:5px;
+left:5px;
+color:#09d8b3;
+background:url(/images/top.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#ssilki{
+	    position:absolute;
+	    top:68px;
+        left:5px;
+        width:97%;		
+		border-radius: 5px;
+        border:1px solid #9664c8;		
+}
+#nastr{
+	    position:absolute;
+	    top:99px;
+        left:5px;
+        width:97%;		 
+		border-radius: 5px;
+        border:1px solid #9664c8;
+        color: #00fdff;		
+}
+
+
+#pod{
+	    position:absolute;
+	    top:144px;
+        left:5px;
+        width:97%;		 
+		border-radius: 5px;
+        border:1px solid #9664c8;		
+}
+nav{
+	color: red;
+}
+
+a {
+  color: #31ff00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+background: -moz-linear-gradient(#202021, #3131a5);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#202021), to(#3131a5));	
+border:1px solid #cc0003;
+border-radius:3px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+outline:none;
+height:19px;
+width:60px;
+color:#ccc700;
+font-size:11px;
+font-family:Tahoma;
+text-align:center;
+margin-left: 3px;
+margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+select {
+border:1px solid #1206f1;
+border-radius:3px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+background:#14145f!important;
+outline:none;
+height:15px;
+width:45px;
+color:#0af528;
+font-size:12px;
+font-family:Tahoma;
+text-align:center;
+}
+
+
+
+#info{
+	    color: green;        	
+}
+
+#pausa{
+  color: blue;
+  background: #eee;
+   max-width: 50px;  
+  
+}
+
+.al{
+    color: red;  
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+header {
+  padding: 25px 0 25px 0;
+  background: white;
+  overflow: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-style: italic;
+  font-size: 3em;
+  color: #b33;
+  float: left;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+
+
+main {
+    background: #fff;
+    border-radius: 0 5px 5px 5px;;
+    padding: 40px;
+}
+
+.tabs a span {
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+}
+
+.tabs a span.active {
+    background: #eee;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+}
+
+main .content h3 {
+    border-radius: 5px;
+    color: #999;;
+    background: #ddd;
+    padding: 5px;
+    margin: 20px 0 10px 0;
+}
+
+main .content h3:first-child {
+    margin-top: 0;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content span {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+    color: red;
+    margin: 30px 0 0px 0;
+}
+
+main .content p:first-child {
+    margin-top: 10px;
+}
+
+main .content input {
+    font-size: 1.5em;
+}
+
+
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 570px;    
+}
+
+footer h5 {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+footer .contact p:nth-child(2) {
+  color: #b33;
+  font-style: italic;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+}
+
+footer ul {
+    width: 230px;
+}
+
+li {
+    list-style: none;
+}
+
+footer .sitemap .left {
+    float: left;
+}
+
+footer .sitemap .right {
+    float: right;
+}
